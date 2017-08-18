@@ -1,0 +1,17 @@
+@media screen and (min-width:375px){
+    .navbar{
+        font-size:1.7em; 
+    }
+    .paint-detective{
+        height:calc(100vh - 130px);
+    }
+}
+
+@media screen and (min-width:414px){
+    .navbar{
+        font-size:1.9em;        
+    }
+    .paint-detective{
+        height:calc(100vh - 140px);
+    }
+}
