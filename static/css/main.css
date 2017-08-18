@@ -23,7 +23,7 @@ img{
 .paint-detective{
     display:flex;
     justify-content:center;
-    height:100vh;
+    height:calc(100vh - 90px);
     margin-right:5px;
 }
 
@@ -33,3 +33,18 @@ img{
 
 
 
+a{
+    text-decoration:none;
+}
+
+.navbar{
+    font-family: 'Agency FB', arial;
+    text-align:center;
+    padding:10px 0;
+    margin-top:20px;
+    font-size:2em;
+}
+
+.navbar a{
+    color:#fff;
+}
