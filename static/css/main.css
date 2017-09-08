@@ -70,8 +70,15 @@ CONTACT
 .drip{
   height:100vh;
   background-color:#fff;
+  width:100%;
 }
 
+.drip-image{
+  /*background: url('../img/contact-drip.jpg') no-repeat center;
+  background-size: cover;*/
+  width: 100%;
+
+}
 
 
 .contact-info{
@@ -96,9 +103,9 @@ CONTACT
 	background-size: 23px 23px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
-  color:#000;
   font-size:1.2em;
   font-weight:bold;
+  color:#000;
 }
 
 
