@@ -16,5 +16,10 @@ app = Flask(__name__)
 def landing_page():
     return render_template('landing.html')
 
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
 if __name__ == "__main__":
     app.run(debug=True)

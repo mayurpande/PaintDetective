@@ -8,17 +8,17 @@
 html{
     position:relative;
     height:100%;
-    
+
 }
 body{
-    
+
     background-color:#000;
     margin:0;
     padding:0;
     width:100%;
     height:100%;
 
-    
+
 }
 
 
@@ -43,6 +43,9 @@ a{
     text-decoration:none;
 }
 
+/*************************************
+navbar
+************************************/
 .navbar{
     font-family: 'Agency FB', arial;
     text-align:center;
@@ -53,10 +56,64 @@ a{
 
 .navbar a{
     color:#fff;
-    border-right:2px #353535 solid; 
+    border-right:2px #353535 solid;
     height:100%;
     padding:0 10px;
-    
-    
+
+
 }
 
+
+/***********************************
+CONTACT
+************************************/
+.drip{
+  height:100vh;
+  background-color:#fff;
+  width:100%;
+}
+
+.drip-image{
+  /*background: url('../img/contact-drip.jpg') no-repeat center;
+  background-size: cover;*/
+  width: 100%;
+
+}
+
+
+.contact-info{
+	margin: 0 auto;
+  width:90%;
+}
+
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+
+}
+
+.contact-info a {
+
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 23px 23px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+  font-size:1.2em;
+  font-weight:bold;
+  color:#000;
+}
+
+
+
+.contact-info li.phone a {
+   background-image: url('../img/phone.jpg');
+}
+
+.contact-info li.mail a {
+   background-image: url('../img/mail.jpg');
+}

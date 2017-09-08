@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% set active_page = 'contact' %}
+
+{% block landing %}
+
+  <div class="drip">
+      <div class="drip-image">
+        <img src={{ url_for('static', filename='img/contact-drip.jpg') }} alt="contact-drip" />
+      </div>
+      <div class="contact-info">
+        <h2>Contact info:</h2>
+        <ul>
+          <li class="phone"><a href="tel:07377730919">07377730919</a></li>
+          <li class="mail"><a href="mailto:info@thepaintdetectives.co.uk">info@thepaintdetectives.co.uk</a></li>
+        </ul>
+
+
+      </div>
+  </div>
+
+
+
+
+{% endblock %}
