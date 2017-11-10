@@ -1,7 +1,7 @@
 /**********For greater than 375px*****/
 /*@media screen and (min-width:375px){
     .navbar{
-        font-size:1.7em; 
+        font-size:1.7em;
     }
     .paint-detective{
         height:calc(100vh - 130px);
@@ -9,28 +9,28 @@
 }/*
 
 /******For handheld device in landscape and portrait greater than 375px *****/
-/*@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) {     
+/*@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
 
     .navbar{
-        font-size:1.7em;       
+        font-size:1.7em;
     }
-    
-    
+
+
 
 }*/
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : landscape) {     
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
 
     .navbar{
-        font-size:1.7em;       
+        font-size:1.7em;
     }
-    
+
 
     .paint-detective{
         height:auto;
@@ -41,7 +41,7 @@ and (orientation : landscape) {
 /**********For greater than 414px*****/
 /*@media screen and (min-width:414px){
     .navbar{
-        font-size:1.9em;        
+        font-size:1.9em;
     }
     .paint-detective{
         height:calc(100vh - 140px);
@@ -53,20 +53,20 @@ and (orientation : landscape) {
 /******For handheld device in landscape and portrait greater than 414px *****/
 
 
-/*@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-and (orientation : portrait) {     
+/*@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
 
     .navbar{
-        font-size:1.9em;  
-        margin-left:3px;     
+        font-size:1.9em;
+        margin-left:3px;
     }
-    
+
     .navbar a{
         padding:0 10px;
     }
-    
+
 
     .paint-detective{
         height:calc(100vh - 140px);
@@ -78,20 +78,20 @@ and (orientation : portrait) {
 
 
 
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-and (orientation : landscape) {     
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
 
     .navbar{
-        font-size:1.9em;  
-        margin-left:3px;     
+        font-size:1.9em;
+        margin-left:3px;
     }
-    
+
     .navbar a{
         padding:0 10px;
     }
-    
+
 
     .paint-detective{
         height:auto;
@@ -106,7 +106,7 @@ and (orientation : landscape) {
 
 @media screen and (min-width:768px){
     .navbar{
-        font-size:2.6em;        
+        font-size:2.6em;
     }
     .navbar a{
         padding:0 25px;
@@ -121,39 +121,39 @@ and (orientation : landscape) {
 
 /******For handheld device in landscape and portrait greater than 768px *****/
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {     
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
 
     .navbar{
-        font-size:2.6em;       
+        font-size:2.6em;
     }
-    
+
     .navbar a{
         padding:0 17px;
     }
 
-    
+
     .paint-detective{
         height:calc(100vh - 140px);
     }
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {     
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
 
     .navbar{
-        font-size:2.6em;       
+        font-size:2.6em;
     }
-    
+
     .navbar a{
         padding:0 17px;
     }
 
-    
+
     .paint-detective{
         height:auto;
     }
@@ -161,20 +161,22 @@ and (orientation : landscape) {
 
 
 
+
+
 /**********For greater than 1024px*****/
-@media screen and (min-width : 1024px) 
-{  
+@media screen and (min-width : 1024px)
+{
 
     .navbar{
-        font-size:3em;  
-        margin-top:30px;     
+        font-size:3em;
+        /*margin-top:30px;     */
     }
-    
+
     .navbar a{
         padding:0 50px;
     }
 
-    
+
     .paint-detective{
         height:calc(100vh - 140px);
     }
@@ -183,25 +185,22 @@ and (orientation : landscape) {
 
 /******For handheld device in landscape and portrait greater than 1024px *****/
 
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px) 
-{     
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px)
+{
 
     .navbar{
-        font-size:2.6em;  
-        margin-left:10px;     
+        font-size:2.6em;
+        margin-left:10px;
     }
-    
+
     .navbar a{
         padding:0 25px;
     }
 
-    
+
     .paint-detective{
         height:calc(100vh - 180px);
     }
 }
-
-
-
