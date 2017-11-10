@@ -39,7 +39,7 @@ img{
 .paint-detective{
     display:flex;
     justify-content:center;
-    height:calc(100vh - 90px);
+    height:calc(100vh - 110px);
     margin-right:5px;
 }
 
@@ -61,6 +61,7 @@ navbar
     text-align:center;
     padding-top:20px;
     font-size:1.4em;
+    padding-bottom:20px;
 }
 
 .navbar a{
