@@ -1,6 +1,18 @@
+{% if active_page == 'contact' %}
+<nav class="navbar" style="background-color:#18181A">
+    <a href='#'><strong>ABOUT US</strong></a>
+    <a href='#'><strong>GALLERY</strong></a>
+    <a href='/contact' style="border-right:none;"><strong>CONTACT US</strong></a>
+
+</nav>
+{% else %}
+
 <nav class="navbar">
     <a href='#'><strong>ABOUT US</strong></a>
     <a href='#'><strong>GALLERY</strong></a>
     <a href='/contact' style="border-right:none;"><strong>CONTACT US</strong></a>
 
 </nav>
+
+
+{% endif %}
